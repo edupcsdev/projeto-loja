@@ -21,9 +21,9 @@ class Carrinho:
         return total
 def aplicar_desconto(total):
     if total > 100:
-        desconto = total * 0.10
+        desconto = total * 0.15
     elif total > 50:
-        desconto = total * 0.05
+        desconto = total * 0.10
     else: 
         desconto = 0
     final = total - desconto
@@ -101,5 +101,3 @@ while True:
         break
     else:
         print("Digite uma opção válida.")
-
-# TESTE123
