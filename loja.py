@@ -32,7 +32,7 @@ def aplicar_desconto(total):
 carrinho = Carrinho()
 
 print("--- LOJA ---")
-print("Bem-vindo à SuperMarket Python. ")
+print("Bem-vindo à Loja Eduardo Python! ")
 produto_aleatorio = random.sample(produtos_destaque, 3)
 print(f"Produtos em destaque: {produto_aleatorio}")
 nome = input("Qual é o seu nome?: ")
